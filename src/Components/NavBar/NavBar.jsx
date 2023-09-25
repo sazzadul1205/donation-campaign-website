@@ -4,25 +4,27 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
 
     const link = <>
-
-        <li><NavLink
-            to="/"
-            exact
-            className={({ isActive, isPending }) =>
-                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
-            }> Home</NavLink></li>
-        <li><NavLink
-            to="/donation"
-            exact
-            className={({ isActive, isPending }) =>
-                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
-            }> Donation</NavLink></li>
-        <li><NavLink
-            to="/statistics"
-            exact
-            className={({ isActive, isPending }) =>
-                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
-            }> Statistics</NavLink></li>
+        <li>
+            <NavLink
+                to="/"
+                exact
+                className={({ isActive, isPending }) => `text-lg font-semibold ${isActive ? 'text-red-500 underline' : 'text-gray-900'}`}
+            > Home</NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/donation"
+                exact
+                className={({ isActive, isPending }) => `text-lg font-semibold ${isActive ? 'text-red-500 underline' : 'text-gray-900'}`}
+            > Donation</NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/statistics"
+                exact
+                className={({ isActive, isPending }) => `text-lg font-semibold ${isActive ? 'text-red-500 underline' : 'text-gray-900'}`}
+            > Statistics</NavLink>
+        </li>
     </>
     return (
         <div className='flex flex-col md:flex-row'>
