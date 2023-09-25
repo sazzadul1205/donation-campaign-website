@@ -7,7 +7,7 @@
     "category_bg": "#0052ff33",
     "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Support groundbreaking health research with your donation.",
+    "description": "Your generous contribution will support cutting-edge research in the field of health. Your donation will fund vital projects aimed at discovering new treatments, improving healthcare access, and enhancing overall well-being. Join us in making a profound impact on the future of healthcare.",
     "price": 199.99,
     "text_color": "#0052FF"
   },
@@ -19,11 +19,11 @@
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Make a difference in education by donating to this fund.",
+    "description": "Transform lives through the power of education. Your donation will be channeled into educational programs, scholarships, and initiatives aimed at providing quality learning opportunities to students of all ages. Help us shape a brighter future through education.",
     "price": 299.99,
     "text_color": "#FF444A"
   },
-  {
+  { 
     "id": 3,
     "picture": "https://i.ibb.co/GdvCQZz/Clothing.png",
     "title": "Support Clothing Drive",
@@ -31,7 +31,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_bg": "#F87147",
-    "description": "Help those in need by contributing to this clothing drive.",
+    "description": "Extend your hand to those in need by contributing to our clothing drive. Your donations will provide clothing and warmth to individuals facing hardships. Together, we can make a difference in their lives, one piece of clothing at a time.",
     "price": 199.99,
     "text_color": "#F87147"
   },
@@ -43,7 +43,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
-    "description": "Provide food assistance to the less fortunate with your donation.",
+    "description": "Be a lifeline to those facing hunger. Your donation will support local food assistance programs, ensuring that nutritious meals reach the tables of those who need it most. Join us in the fight against food insecurity.",
     "price": 299.99,
     "text_color": "#F87147"
   },
@@ -55,19 +55,19 @@
     "category_bg": "#0052ff33",
     "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Empower health initiatives by donating to this cause.",
+    "description": "Empower health initiatives by contributing to our cause. Your donation will help launch and sustain programs dedicated to promoting physical and mental well-being. Together, we can create a healthier world for all.",
     "price": 199.99,
     "text_color": "#0052FF"
   },
   {
     "id": 6,
     "picture": "https://i.ibb.co/80Vwjgf/Education.png",
-    "title": "Contribute to Educational Outreach",
+    "title": "Contribute to Educational Advancement",
     "category": "Education",
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Support educational outreach programs with your donation.",
+    "description": "Advance educational opportunities with your contribution. Your support will enable us to reach more learners, expand educational outreach programs, and bridge the gap to a brighter future.",
     "price": 299.99,
     "text_color": "#FF444A"
   },
@@ -79,7 +79,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_bg": "#F87147",
-    "description": "Contribute to outreach efforts by donating clothing.",
+    "description": "Contribute to outreach efforts by donating clothing. Your generosity will provide clothing to those in need, helping them stay warm and comfortable during challenging times.",
     "price": 199.99,
     "text_color": "#F87147"
   },
@@ -91,7 +91,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
-    "description": "Help sustain food bank programs with your donation.",
+    "description": "Help sustain food bank programs with your donation. Your contribution will ensure that essential food items reach families and individuals in need, providing them with nourishment and hope.",
     "price": 299.99,
     "text_color": "#F87147"
   },
@@ -103,7 +103,7 @@
     "category_bg": "#0052ff33",
     "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Promote health and wellness through your generous donation.",
+    "description": "Promote health and wellness through your generous donation. Your support will enable us to launch wellness initiatives, provide medical assistance to those in need, and create a healthier future for all.",
     "price": 199.99,
     "text_color": "#0052FF"
   },
@@ -115,7 +115,7 @@
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Advance educational opportunities with your contribution.",
+    "description": "Advance educational opportunities with your contribution. Your support will enable us to reach more learners, expand educational outreach programs, and bridge the gap to a brighter future.",
     "price": 299.99,
     "text_color": "#FF444A"
   },
@@ -127,7 +127,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_bg": "#F87147",
-    "description": "Contribute to outreach efforts by donating clothing.",
+    "description": "Contribute to outreach efforts by donating clothing. Your generosity will provide clothing to those in need, helping them stay warm and comfortable during challenging times.",
     "price": 199.99,
     "text_color": "#F87147"
   },
@@ -139,7 +139,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
-    "description": "Help provide relief by donating to a local food cause.",
+    "description": "Help provide relief by donating to a local food cause. Your contribution will support food relief programs, ensuring that no one goes to bed hungry in our community. Join us in making a difference.",
     "price": 299.99,
     "text_color": "#F87147"
   }
