@@ -11,7 +11,7 @@ const Home = () => {
             .then((res) => res.json())
             .then((data) => {
                 setCards(data);
-                setSearchResult(data); // Initialize searchResult with all cards
+                setSearchResult(data);
             });
     }, []);
 
@@ -23,7 +23,6 @@ const Home = () => {
 
 
     const handleSearchClick = () => {
-        // Perform the search when the button is clicked
         const filteredCards = cards.filter((card) =>
             card.category.includes(searchText)
         );
