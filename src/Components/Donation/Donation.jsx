@@ -23,7 +23,6 @@ const Donation = () => {
         }
     }, [donations]);
 
-    // Function to handle "Show All" button click
     const handleShowAllClick = () => {
         setShowAll(true);
     };
