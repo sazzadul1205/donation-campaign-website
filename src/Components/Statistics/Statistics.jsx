@@ -59,7 +59,7 @@ const Statistics = () => {
                             nameKey='name'
                             cx='50%'
                             cy='50%'
-                            outerRadius={200}
+                            outerRadius={150}
                             fill='#8884d8'
                             label={(entry) => `${(entry.percent * 100).toFixed(2)}%`}
                         >
@@ -75,12 +75,12 @@ const Statistics = () => {
                     </PieChart>
                 </ResponsiveContainer>
             </div>
-            <div className='flex justify-center'>
+            <div className='flex flex-col md:flex-row justify-center'>
                 <div className='flex items-center'>
                     <p className='font-normal text-lg'>Your Donation</p>
                     <p className='w-24 h-3 ml-2 bg-[#00C49F]'></p>
                 </div>
-                <div className='flex items-center ml-4'>
+                <div className='flex items-center md:ml-4'>
                     <p className='font-normal text-lg'>Total Donation</p>
                     <p className='w-24 h-3 ml-2 bg-[#FF444A]'></p>
                 </div>

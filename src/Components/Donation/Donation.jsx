@@ -30,18 +30,22 @@ const Donation = () => {
     return (
         <div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 md:mx-36'>
-                {displayDonation.slice(0, showAll ? displayDonation.length : 4).map((donation) => (
-                    <DonationCard key={donation.id} donation={donation}></DonationCard>
-                ))}
+                {displayDonation
+                    .slice(0, showAll ? displayDonation.length : 4)
+                    .map((donation) => (
+                        <DonationCard key={donation.id} donation={donation}></DonationCard>
+                    ))}
             </div>
-            {!showAll && (
+            {displayDonation.length > 4 && !showAll && (
                 <div className='text-center mt-14'>
                     <div className='flex justify-center'>
                         <button
                             className='btn btn-secondary bg-[#009444] border-none text-base font-semibold'
                             onClick={handleShowAllClick}
-                        >Show All</button>
-                    </div>
+                        >
+                            Show All
+                        </button>
+                    </div>  
                 </div>
             )}
         </div>

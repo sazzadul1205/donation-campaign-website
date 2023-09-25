@@ -5,9 +5,24 @@ const NavBar = () => {
 
     const link = <>
 
-            <li><NavLink  to='/'>Home</NavLink></li>
-            <li><NavLink to='/donation'>Donation</NavLink></li>
-            <li><NavLink to='/statistics'>Statistics</NavLink></li>
+        <li><NavLink
+            to="/"
+            exact
+            className={({ isActive, isPending }) =>
+                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
+            }> Home</NavLink></li>
+        <li><NavLink
+            to="/donation"
+            exact
+            className={({ isActive, isPending }) =>
+                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
+            }> Donation</NavLink></li>
+        <li><NavLink
+            to="/statistics"
+            exact
+            className={({ isActive, isPending }) =>
+                `text-[${isActive ? '#FF444A' : '#0B0B0B'}] ${isActive ? 'underline' : ''} text-${isActive ? 'xl' : 'lg'} font-${isActive ? 'bold' : 'semibold'}`
+            }> Statistics</NavLink></li>
     </>
     return (
         <div className='flex flex-col md:flex-row'>
@@ -16,7 +31,7 @@ const NavBar = () => {
                     <img src="/Logo.png" alt="Website Logo" />
                 </div>
                 <div className="flex-none">
-                    <ul className='flex gap-12 font-normal text-lg'>
+                    <ul className='flex gap-10 lg:gap-12 font-normal text-lg'>
                         {link}
                     </ul>
                 </div>
